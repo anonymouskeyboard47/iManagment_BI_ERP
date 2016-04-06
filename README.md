@@ -8,7 +8,7 @@ you can download the code and use it as you with. email the developer if you thi
 If you are new to software engineering, GIS development, EPR/BI development, etc this is a good place to start in order to understand how financial, business, and other core systems work and interact with each other.
 
 The system code is useful for:
-- Land Management
+- Land Management and Administration
 - Document Management and Archiving
 - Workflow Management
 - Generating code automatically (EPiServer's implementation of generating a system from the database)
@@ -17,8 +17,10 @@ The system code is useful for:
 - Accounting
 - Building Management
 - G.I.S web system
-- 
+- Asset management (land as the core base)
+- Tracking vehicles (better in Tripodmaps and Shambamap)
 
+The system introduces the concept of land as the base of any moveable object
 
 This code was superseded by the .NET version of iManagement that was later used to build Tripodmaps, iManagement.NET, and other platforms. iManagement.NET is written in C#.NET.
 
