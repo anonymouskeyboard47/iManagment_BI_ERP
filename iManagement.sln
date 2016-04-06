@@ -1,0 +1,19 @@
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual C# Express 2005
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "iManagement", "iManagement.vbproj", "{1184440C-3966-4A48-B95D-E5AF58026F5D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Default = Debug|Default
+		Release|Default = Release|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1184440C-3966-4A48-B95D-E5AF58026F5D}.Debug|Default.ActiveCfg = Debug|Any CPU
+		{1184440C-3966-4A48-B95D-E5AF58026F5D}.Debug|Default.Build.0 = Debug|Any CPU
+		{1184440C-3966-4A48-B95D-E5AF58026F5D}.Release|Default.ActiveCfg = Release|Any CPU
+		{1184440C-3966-4A48-B95D-E5AF58026F5D}.Release|Default.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

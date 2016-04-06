@@ -1,0 +1,731 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectType>Local</ProjectType>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{1184440C-3966-4A48-B95D-E5AF58026F5D}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ApplicationIcon>
+    </ApplicationIcon>
+    <AssemblyKeyContainerName>
+    </AssemblyKeyContainerName>
+    <AssemblyName>iManagementClasses</AssemblyName>
+    <AssemblyOriginatorKeyFile>
+    </AssemblyOriginatorKeyFile>
+    <AssemblyOriginatorKeyMode>None</AssemblyOriginatorKeyMode>
+    <DefaultClientScript>JScript</DefaultClientScript>
+    <DefaultHTMLPageLayout>Grid</DefaultHTMLPageLayout>
+    <DefaultTargetSchema>IE50</DefaultTargetSchema>
+    <DelaySign>false</DelaySign>
+    <OutputType>Library</OutputType>
+    <OptionCompare>Binary</OptionCompare>
+    <OptionExplicit>On</OptionExplicit>
+    <OptionStrict>Off</OptionStrict>
+    <RootNamespace>iManagementClasses</RootNamespace>
+    <StartupObject>iManagementClasses.%28None%29</StartupObject>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <MyType>Windows</MyType>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>bin\</OutputPath>
+    <DocumentationFile>iManagementClasses.xml</DocumentationFile>
+    <BaseAddress>285212672</BaseAddress>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>
+    </DefineConstants>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <DebugSymbols>true</DebugSymbols>
+    <Optimize>false</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>1</WarningLevel>
+    <NoWarn>42016,42017,42018,42019,42032</NoWarn>
+    <DebugType>full</DebugType>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>bin\</OutputPath>
+    <DocumentationFile>iManagementClasses.xml</DocumentationFile>
+    <BaseAddress>285212672</BaseAddress>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>
+    </DefineConstants>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <DebugSymbols>false</DebugSymbols>
+    <Optimize>true</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>1</WarningLevel>
+    <NoWarn>42016,42017,42018,42019,42032</NoWarn>
+    <DebugType>none</DebugType>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CrystalDecisions.CrystalReports.Engine">
+      <Name>CrystalDecisions.CrystalReports.Engine</Name>
+      <HintPath>C:\Program Files\Common Files\Crystal Decisions\1.1\Managed\CrystalDecisions.CrystalReports.Engine.dll</HintPath>
+      <AssemblyFolderKey>hklm\crystal.net</AssemblyFolderKey>
+    </Reference>
+    <Reference Include="CrystalDecisions.ReportSource">
+      <Name>CrystalDecisions.ReportSource</Name>
+      <HintPath>C:\Program Files\Common Files\Crystal Decisions\1.1\Managed\CrystalDecisions.ReportSource.dll</HintPath>
+      <AssemblyFolderKey>hklm\crystal.net</AssemblyFolderKey>
+    </Reference>
+    <Reference Include="CrystalDecisions.Shared">
+      <Name>CrystalDecisions.Shared</Name>
+      <HintPath>C:\Program Files\Common Files\Crystal Decisions\1.1\Managed\CrystalDecisions.Shared.dll</HintPath>
+      <AssemblyFolderKey>hklm\crystal.net</AssemblyFolderKey>
+    </Reference>
+    <Reference Include="System">
+      <Name>System</Name>
+    </Reference>
+    <Reference Include="System.Data">
+      <Name>System.Data</Name>
+    </Reference>
+    <Reference Include="System.Drawing">
+      <Name>System.Drawing</Name>
+    </Reference>
+    <Reference Include="System.Web">
+      <Name>System.Web</Name>
+    </Reference>
+    <Reference Include="System.Xml">
+      <Name>System.XML</Name>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Data" />
+    <Import Include="System.Diagnostics" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AssemblyInfo.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="basDatabase.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="IMAccountingPeriod.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="IMAppartmentAsset.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="IMAppartmentBuilding.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="IMAppartmentMaster.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="IMAppartmentRent.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="IMAppartmentRoomAmenities.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="IMAppartmentRooms.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="IMAppartmentTypeMaster.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="IMApplication.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="IMApplicationApproval.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="IMApplicationApprovalStages.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="IMApplicationCustomer.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="IMApplicationReferees.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="IMApplicationTypes.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="IMBank.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="IMBankAccountTypes.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="IMBuildingCostCentre.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="IMBuildingEstate.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="IMBuildingFloorMaster.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="IMBuildingMaster.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="IMBuildingRoomSecurity.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="IMBuildingSecurityMaster.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="IMBuildingUsage.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="IMBusinessProcessMaster.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="IMBusinessProcessWorkFlowApprovalStages.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="IMBusinessProcessWorkFlows.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="IMChartOfAccount.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="IMCheckDongle.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="IMCity.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="IMCOADefaults.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="IMCOAFormats.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="IMCOAHeadings.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="IMCostCentres.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="IMCostCentreTypes.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="IMCountries.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="IMCountryLookups.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="IMCustNextOFKin.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="IMCustomer.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="IMCustomerBankAccounts.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="IMCustomerEmployment.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="IMCustomerIdentity.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="IMCustomerPriorities.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="IMCustomerSalaries.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="IMDeliveryDocuments.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="IMDocumentMaster.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="IMDocumentReceivership.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="IMDocumentStatus.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="IMDocumentTypes.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="IMEmailProcessing.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="IMEmployeeBankAccounts.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="IMEmployeeEmployment.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="IMEmployeeIdentity.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="IMEmployeeMaster.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="IMEmployeeMonetaryActivities.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="IMEmployeeNextOFKin.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="IMEmployeeSalaries.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="IMEmployerAccounts.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="IMEmployers.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="IMEmploymentTypes.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="IMEmplyomentTypes.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="IMFixedAssetAccessories.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="IMFixedAssetAccessoriesTypes.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="IMFixedAssetAuthorizedUsers.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="IMFixedAssetFeatures.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="IMFixedAssetFeatureType.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="IMFixedAssetGroupToAssetLink.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="IMFixedAssetIMTypes.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="IMFixedAssetPlot.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="IMFixedAssets.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="IMFixedAssetsGroups.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="IMGroups.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="IMInvoice.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="IMInvoiceTransactions.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="IMInvoiceTypes.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="IMLogin.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="IMMeetingAgendas.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="IMMeetingDocuments.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="IMMeetingMaster.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="IMMeetingMemberPresent.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="IMMeetingMinutes.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="IMMethodOfPayment.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="IMMonetaryActivities.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="IMObjectCoordinates.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="IMObjectMeterReadings.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="IMOrderDocuments.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="IMOrgActivities.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="IMOrganizationSID.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="IMOrgTypes.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="IMOverallSetup.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="IMPAYEEmployeeBenefitsTypes.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="IMPAYEEmployeeReliefTypes.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="IMPAYEEmployeeTypes.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="IMPAYETaxDeductionCardsTypes.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="IMPAYETaxTablesP38.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="IMPAYETaxTableTypes.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="IMPaymentSchemes.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="IMPlotCostCentre.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="IMPlots.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="IMPostOffice.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="IMProductDeliveries.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="IMProductOrders.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="IMProducts.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="IMProductStockAmount.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="IMProductStockManager.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="IMRoomAmenityTypeID.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="IMRoomTypeMaster.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="IMSendEmail.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="IMSequence.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="IMSequenceMaster.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="IMSIDMaster.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="IMSIDToWorkFlow.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="IMStockDeductions.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="IMStockManager.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="IMSupplierOrder.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="IMSupplierPriceRanges.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="IMSupplierProducts.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="IMSuppliers.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="IMSystemConfiguration.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="IMSystemFunctionsToDatabaseTable.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="IMSystemWorkflowObjects.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="IMTaxes.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="IMTransaction.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="IMTransactionMaster.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="IMTransactionTraceDetails.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="IMTransactionTypes.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="IMUserGroup.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="IMUsers.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="IMVATAccount.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="IMVehicleAsset.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="IMVoucherInvoice.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="IMWorkFlowNote.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="IMWorkFlowObject.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="IMXMLEncryptionAndSignature.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="IMXMLFileProcessing.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="rptAssetCustomers.vb">
+      <DependentUpon>rptAssetCustomers.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="rptBankAccounts.vb">
+      <DependentUpon>rptBankAccounts.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="rptBuildingsCustomers.vb">
+      <DependentUpon>rptBuildingsCustomers.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="rptChartOfAccountFormats.vb">
+      <DependentUpon>rptChartOfAccountFormats.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="rptChartOfAccounts.vb">
+      <DependentUpon>rptChartOfAccounts.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="rptCompanyDetails.vb">
+      <DependentUpon>rptCompanyDetails.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="rptCostCenters.vb">
+      <DependentUpon>rptCostCenters.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="rptDeliveries.vb">
+      <DependentUpon>rptDeliveries.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="rptDocumentsTemplate.vb">
+      <DependentUpon>rptDocumentsTemplate.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="rptFinancialPeriods.vb">
+      <DependentUpon>rptFinancialPeriods.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="rptInventoryItems.vb">
+      <DependentUpon>rptInventoryItems.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="rptInventoryPrice.vb">
+      <DependentUpon>rptInventoryPrice.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="rptInventoryShortage.vb">
+      <DependentUpon>rptInventoryShortage.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="rptMeterReadingInvoice.vb">
+      <DependentUpon>rptMeterReadingInvoice.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="rptOrders.vb">
+      <DependentUpon>rptOrders.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="rptSupplierDeliveryTimes.vb">
+      <DependentUpon>rptSupplierDeliveryTimes.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="rptSupplierPrices.vb">
+      <DependentUpon>rptSupplierPrices.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="rptSupplierProductDeliveryTimes.vb">
+      <DependentUpon>rptSupplierProductDeliveryTimes.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="rptSuppliers.vb">
+      <DependentUpon>rptSuppliers.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="rptTaxes.vb">
+      <DependentUpon>rptTaxes.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Content Include="iM.ICO" />
+    <EmbeddedResource Include="rptAssetCustomers.rpt">
+      <Generator>CrystalDecisions.VSShell.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptAssetCustomers.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rptBankAccounts.rpt">
+      <Generator>CrystalDecisions.VSShell.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptBankAccounts.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rptBuildingsCustomers.rpt">
+      <Generator>CrystalDecisions.VSShell.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptBuildingsCustomers.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rptChartOfAccountFormats.rpt">
+      <Generator>CrystalDecisions.VSShell.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptChartOfAccountFormats.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rptChartOfAccounts.rpt">
+      <Generator>CrystalDecisions.VSShell.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptChartOfAccounts.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rptCompanyDetails.rpt">
+      <Generator>CrystalDecisions.VSShell.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptCompanyDetails.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rptCostCenters.rpt">
+      <Generator>CrystalDecisions.VSShell.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptCostCenters.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rptDeliveries.rpt">
+      <Generator>CrystalDecisions.VSShell.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptDeliveries.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rptDocumentsTemplate.rpt">
+      <Generator>CrystalDecisions.VSShell.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptDocumentsTemplate.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rptFinancialPeriods.rpt">
+      <Generator>CrystalDecisions.VSShell.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptFinancialPeriods.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rptInventoryItems.rpt">
+      <Generator>CrystalDecisions.VSShell.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptInventoryItems.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rptInventoryPrice.rpt">
+      <Generator>CrystalDecisions.VSShell.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptInventoryPrice.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rptInventoryShortage.rpt">
+      <Generator>CrystalDecisions.VSShell.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptInventoryShortage.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rptMeterReadingInvoice.rpt">
+      <Generator>CrystalDecisions.VSShell.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptMeterReadingInvoice.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rptOrders.rpt">
+      <Generator>CrystalDecisions.VSShell.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptOrders.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rptSupplierDeliveryTimes.rpt">
+      <Generator>CrystalDecisions.VSShell.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptSupplierDeliveryTimes.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rptSupplierPrices.rpt">
+      <Generator>CrystalDecisions.VSShell.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptSupplierPrices.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rptSupplierProductDeliveryTimes.rpt">
+      <Generator>CrystalDecisions.VSShell.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptSupplierProductDeliveryTimes.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rptSuppliers.rpt">
+      <Generator>CrystalDecisions.VSShell.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptSuppliers.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rptTaxes.rpt">
+      <Generator>CrystalDecisions.VSShell.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptTaxes.vb</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{CF845C55-C321-4742-B673-E6212D061ED9}" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.VisualBasic.targets" />
+  <PropertyGroup>
+    <PreBuildEvent>
+    </PreBuildEvent>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
+</Project>
