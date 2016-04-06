@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="iManagementClasses">
+</Property><Property Name="Solution File" Value="D:\TripodSystems\Development\James Muricho - Trip1\Systems\iManagement Systems\Code\Part 1\iManagementClasses\iManagementClasses.sln">
+</Property><Property Name="Date" Value="Tuesday, October 03, 2006">
+</Property><Property Name="Time" Value="14:49:00 PM">
+</Property><Property Name="Log Number" Value="2">
+</Property></Properties><Event ErrorLevel="0" Project="iManagementClasses" Source="iManagementClasses.vbproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="iManagementClasses" Source="iManagementClasses.vbproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="iManagementClasses" Source="iManagementClasses.vbproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>
