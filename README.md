@@ -1,5 +1,5 @@
 # iManagment_BI_ERP
-This is an old ERP/BI system implementation that was implemented by the developer for the company Tripodsystems LTD, Kenya. The code is in visual studio 6 (Visual Basic).
+This is an old ERP/BI system implementation that was implemented by the developer for the company Tripodsystems LTD, Kenya. The code is in visual studio 6 (Visual Basic). The work started in 2004, and this work has grown to produce Shambamap and Tripodmaps.
 
 The classes are SOLID/AGILE like development with each object and extension defined properly in order to ensure a proper structure of the system.
 
