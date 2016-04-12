@@ -10,7 +10,7 @@ If you are new to software engineering, GIS development, EPR/BI development, etc
 The system code is useful for:
 - Land Management and Administration
 - Document Management and Archiving
-- Workflow Management
+- Workflow Management (Business Processes and Business Functions and User Roles define the Workflow management)
 - Generating code automatically 
 - Invoicing
 - Chart of Accounts
