@@ -3,12 +3,13 @@ This is an old ERP/BI system implementation that was implemented by the develope
 
 The classes are SOLID/AGILE like development classes, with each object and extension defined properly in order to ensure a proper structure of the system.
 
-You can download the code and use it as you with. email the developer if you think you want more, but you can easily add more.
+You can download the code and use it as you with. Email the developer if you want more, but you can easily add more on your own or hire a developer.
 
 If you are new to software engineering, GIS development, EPR/BI development, etc this is a good place to start in order to understand how financial, business, and other core systems work and interact with each other.
 
 The system code is useful for:
 - Land Management and Administration
+- Management of Government Services that relate to billing
 - Document Management and Archiving
 - Workflow Management (Business Processes and Business Functions and User Roles define the Workflow management)
 - Generating code automatically 
