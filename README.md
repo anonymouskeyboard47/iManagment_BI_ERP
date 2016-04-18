@@ -30,6 +30,7 @@ Work to do for the future
 --------------------------
 - NONE. This component is deprecated. However, TRIP_API's documentation lists different ideas and unfinished work that needs to be done in the future.
 
+It should however be noted that error handling and security are major issues to address when using these components. Error handling within these components is practically inexistent.
 
 Disclaimer
 -----------
