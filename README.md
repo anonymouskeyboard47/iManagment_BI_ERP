@@ -16,10 +16,10 @@ The system code is useful for:
 - Invoicing
 - Chart of Accounts
 - Accounting
-- Building Management (large scale because Assets use land as a base for the system)
+- Building Management (large scale because Assets use land as the base for integrating to the system)
 - G.I.S web system
 - Asset management (land as the core base)
-- Tracking vehicles (better in Tripodmaps and Shambamap)
+- Tracking vehicles (better in Tripodmaps and Shambamap and land is used as the base for integrating to the system)
 
 The system introduces the concept of land as the base of any moveable object, workflows, document and content management, etc. You may decide to build your entire ERP, CMS, G.I.S project, or code generator from scratch using this. This is not similar to having so,ething like EPiServer or Sharepoint, not similar to Visual Studio, not similar to Sage. This only forms the building blocks for such a system. You will need almost a year and several serious developers to convert this set of code into a functional CMS like EPiServer, but at least you will have a starting point. Polymorphism needs to be checked. But if you are making a custom system for a law firm, a G.I.S system for a land registry, a car tracking system, etc you are almost half way done with this code.
 
